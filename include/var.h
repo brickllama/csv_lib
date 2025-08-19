@@ -1,5 +1,5 @@
-#ifndef VARIABLE_H
-#define VARIABLE_H
+#ifndef VAR_H
+#define VAR_H
 
 typedef enum
 {
@@ -33,8 +33,8 @@ static Var create_double_var(double d);
 
 static Var create_string_var(const char *s);
 
-static void free_var(Var *v);
+static void free_var(Var *var);
 
 Var parse_var(const char *input);
 
-#endif  // VARIABLE_H
+#endif  // VAR_H
